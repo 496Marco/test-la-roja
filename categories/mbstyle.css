@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    
+    margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  scroll-padding-top:2rem;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  }
+
+:root {
+  --main-color: rgb(40, 40, 40); 
+  --text-color: rgb(224, 37,37); 
+  --bg-color: rgb(0, 0, 0);
+  --border-color: rgb(60, 60, 60)   
+}
+
+
+body{
+color: var(--text-color);
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+}
+
+p.three {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+  }
+  
+  div.gray {
+    height: 15px;
+    width: 750px;
+    position: absolute;
+    top: 45px;
+    left: 280px;
+    background-color: rgb(224, 37, 37);
+    padding: 10;
+    border-radius: 10px;
+  }
+  
+  div.red2 {
+    width: 1496px;
+    height: 40px;
+    position: absolute;
+    top: 100px;
+    left: -1px;
+    background-color: rgb(224, 37, 37);
+  }
+  
+  #search {
+    position: absolute;
+    top: 3px;
+    left: 800px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .search-input {
+    height: 40px;
+    width: 850px;
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    background-color: rgb(224, 37, 37);
+    padding: 10;
+    border-radius: 10px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  ::placeholder {
+    color: black;
+    font-size: large;
+    position: absolute;
+    top: 10px;
+  }
+  
+  nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(224, 37, 37);
+  }
+  
+  ul {
+    margin-left: 40px;
+  }
+  
+  ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    padding: 0 20px;
+  }
+  
+  ul li a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  div.gray2 {
+    width: 1496px;
+    height: max-content;
+    position: absolute;
+    top: 150px;
+    left: -1px;
+    background-color: rgb(19, 19, 19);
+  }
+  
+  img.la-roja {
+    position: absolute;
+    top: 44px;
+    left: 10px;
+  
+    height: 40px;
+    width: 50 px;
+  }
+  
+  h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: rgb(224, 37, 37);
+  }
+
+ 
+
+ #account {
+  position: absolute;
+    top: 40px;
+    right: 170px;
+    color: rgb(224, 37, 37);  
+    size: 30px;
+ }
+
+ p.account {
+  position: absolute;
+  top: 63px;
+  right: 130px;
+  color: rgb(224, 37, 37);  
+  size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+.mobiles-proudects{
+  padding: 4rem 0 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+ }
+ .mobile-top-title{
+  margin-top: -4%;
+  font-size: 35px;
+  position: relative;
+  top: -13px;
+ }
+
+ .mobile-title{
+  margin-top: 6%;
+  font-size: small;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: .3rem;
+  color: rgb(224, 37, 37);
+ }
+
+ .mobile-price{
+  font-size: x-large;
+  font-weight: 500;
+  color: rgb(224, 37, 37);
+ }
+
+ .mobiles-img {
+  width: 80%;
+
+height: auto;
+margin-bottom: 10px;
+}
+
+.mobiles{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px, auto));
+ 
+}
+
+.mobile-box{
+  position: relative;
+}
+
+.mobile-box:hover{
+  border: 1px solid var(--text-color);
+  transition: 0.4s;
+
+}
+
+
+#add-mobile{
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  background: var(--text-color);
+  color: var(--bg-color);
+  padding: 10px;
+  cursor: pointer;
+  font-size: medium;
+}
+ 
+#add-mobile:hover{
+    background-color: rgb(194, 7, 7);
+}
+
+.cart{
+position: fixed;
+top: 0px;
+right: 100%;
+height: 100vh;
+width: 360px;
+background: var(--main-color);
+box-shadow: 0px 0 3px;
+min-height: 100vh;
+transition: 0.3s;
+}
+.cart.active {
+right: 0;
+}
+
+#cart{
+position: fixed;
+right: 27px;
+top: 42px;
+color: rgb(224, 37, 37);
+}
+
+.urcart{
+top: 4%;
+left: 30%;
+color: rgb(224, 37, 37);
+text-align: center;
+font-size: 2rem;
+}
+
+.cart-box{
+    display: grid;
+    grid-template-columns:32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+.cart-img{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.detail-box{
+display: grid;
+column-gap: 0.5rem;
+}
+
+.cart-product-title{
+font-size: 1.24rem;
+text-transform: uppercase;
+}
+
+.cart-price{
+font-weight: 500;
+}
+
+.cart-quantity{
+border: 1px solid var(--text-color);
+outline-color: var(--main-color);
+width: 2.4rem;
+text-align: center;
+font-size: 1rem;
+}
+
+#cart-remove{
+font-size: 24px;
+color: var(--text-color);
+cursor: pointer;
+}
+
+.total{
+display: flex;
+justify-content: flex-end;
+margin-top: 30%;
+border-top: 1.5px solid var(--border-color);
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.total-title{
+font-size: 1rem;
+font-weight: 600;
+}
+
+.total-price{
+margin-left: 0.5rem;
+}
+
+.btn-buy{
+display: flex;
+margin: 1.5rem auto 0  auto;
+padding: 12px 20px;
+border: none;
+background: var(--text-color);
+color: rgb(24, 24, 24);
+font-size: 1rem;
+font-weight: 500;
+cursor: pointer;
+}
+
+.btn-buy:hover{
+background-color:rgb(194, 7, 7);
+}
+
+#close-cart{
+position: absolute;
+top: 0.5rem;
+right: 0.3rem;
+font-size: 1.5rem;
+color: var(--text-color);
+cursor: pointer;
+}
+
+#cart-icon{
+    cursor: pointer;
+    position: absolute;
+    top: 45px;
+    right: 50px;
+    color: rgb(224, 37, 37);
+}
